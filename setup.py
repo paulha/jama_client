@@ -9,11 +9,12 @@ install_requires = {
 setup(
     name='jama_client',
     version='0.1',
-    packages=[''],
-    package_dir={'': 'jama_client'},
-    url='',
+    packages=['jama_client'],
+    #package_dir={'': 'jama_client'},
+    url='https://github.com/paulha/jama_client.git',
     license='',
-    author='paulhanchett',
+    author='Paul Hanchett',
     author_email='paul.hanchett@gmail.com',
-    description=''
+    description='',
+    zip_safe=False
 )
