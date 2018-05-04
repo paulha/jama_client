@@ -10,7 +10,7 @@ setup(
     name='jama_client',
     version='0.1',
     packages=[''],
-    package_dir={'': '../jama_client'},
+    package_dir={'': './jama_client'},
     url='',
     license='',
     author='paulhanchett',
